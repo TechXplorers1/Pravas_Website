@@ -67,6 +67,8 @@
   height: 70vh;
   align-content: center;
   font-size: large;
+  width: 50%;
+  /* background-color: blue; */
 }
 
 
@@ -103,4 +105,65 @@
   height: 99vh;
   color: white;
   
+}
+
+.text{
+  display: flex;
+  justify-content: end;
+  /* background-color: red; */
+  align-items: end;
+}
+
+
+/* -------- Company DropDown code -------- */
+
+/* Dropdown container */
+.company-dropdown,
+.services-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown trigger (Company and Services links) */
+.company-dropdown .dropdown-trigger,
+.services-dropdown .dropdown-trigger {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white; /* Match your theme */
+  min-width: 200px; /* Adjust width for longer text */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  top: 100%; /* Position below the "Company" or "Services" link */
+  left: 0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  font-size: 85%;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  width: 100%;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  color: grey;
+}
+
+/* Show dropdown content on hover */
+.company-dropdown:hover .dropdown-content,
+.services-dropdown:hover .dropdown-content {
+  display: block;
 }

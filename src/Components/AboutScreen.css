@@ -1,0 +1,28 @@
+.about-row {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 10px; */
+  }
+
+
+  .about-text-box {
+    /* background-color: #f8f9fa; */
+    border-radius: 12px;
+    margin-left: 8%;
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.1); */
+    padding: 20px;
+    height: 100%; /* Fill the height of the column */
+    min-height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+  .container{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: yellow; */
+    width: 90%;
+  }
+  
