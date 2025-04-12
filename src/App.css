@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
+.Logo{
+  height: auto;
+  width: 160px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.Home-fields a{
+  text-decoration: none;
+  color: white;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hero-section{
+  position: relative;
+  height: 94vh;
+  overflow: hidden;
+  color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* justify-content: space-between; */
+  text-align: center;
+  font-size: medium;
+  background: rgba(3, 3, 3, 0.986);
+  z-index: 3;
+  /* background: url("./assets/istockphoto-1036743030-640_adpp_is.mp4"); */
+}
+
+.hero-section::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.203));
+  z-index: 2;
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 2;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  padding: 0 20px;
+  height: 70vh;
+  align-content: center;
+  font-size: large;
+}
+
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin: 0.5rem 0;
+}
+
+.hero-content h2 {
+  font-size: 2rem;
+  color: orange;
+  margin: 0.5rem 0;
+}
+
+.hero-button {
+  margin-top: 20px;
+  background-color: #ff5722;
   color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.hero-button:hover {
+  background-color: #e64a19;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.App{
+  /* background: black; */
+  background: rgba(0, 0, 0, 0.6);
+  height: 99vh;
+  color: white;
+  
 }
