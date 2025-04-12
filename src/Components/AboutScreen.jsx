@@ -40,16 +40,16 @@ const AboutSection = () => {
                   <i className="bi bi-gear-fill fs-4 text-primary"></i>
                 </div>
                 <div>
-                  <h6 className="fw-bold mb-1" style={{ fontSize: "1rem" }}>Best Services</h6>
-                  <p className="mb-0 text-muted" style={{ fontSize: "0.9rem" }}>We provide best IT services</p>
+                  <h6 className="fw-bold mb-1" style={{ fontSize: "1.5rem",color:"black" }}>Best Services</h6>
+                  <p className="mb-0 text-muted" style={{ fontSize: "0.9rem",color:"black" }}>We provide best IT services</p>
                 </div>
               </div>
               <div className="col-6 d-flex align-items-start">
                 <div className="me-2">
-                  <i className="bi bi-headset fs-4 text-primary"></i>
+                  <i className="bi bi-headset fs-4 text-primary "></i>
                 </div>
                 <div>
-                  <h6 className="fw-bold mb-1" style={{ fontSize: "1rem" }}>24/7 Call Support</h6>
+                  <h6 className="fw-bold mb-1" style={{ fontSize: "1.5rem",color:"black" }}>24/7 Call Support</h6>
                   <p className="mb-0 text-muted" style={{ fontSize: "0.9rem" }}>We can take calls 24/7</p>
                 </div>
               </div>
