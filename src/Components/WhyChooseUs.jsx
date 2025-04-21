@@ -3,7 +3,7 @@ import ChooseUs from "../assets/whychoosewe.jpg";
 
  const WhyChooseUs = () => {
   return (
-    <div className="bg-white py-5 px-4">
+    <div id="why-choose-us" className="bg-white py-5 px-4">
       <div className="container">
         <div className="row align-items-start g-4">
           

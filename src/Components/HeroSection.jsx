@@ -27,8 +27,20 @@ const HeroSection = () => {
           <div className="company-dropdown">
             <a href="#" className="dropdown-trigger">Company</a>
             <div className="dropdown-content">
-              <a href="#">About Us</a>
-              <a href="#">Why Choose Us</a>
+              <a href="#about-us" onClick={(e) => {
+                e.preventDefault(); // Prevent default anchor behavior
+                const aboutSection = document.getElementById('about-us');
+                aboutSection.scrollIntoView({ behavior: 'smooth' });
+                }}>
+                About Us
+              </a>
+              <a href="#why-choose-us" onClick={(e) => {
+                e.preventDefault(); // Prevent default anchor behavior
+                const whyChooseUsSection = document.getElementById('why-choose-us');
+                whyChooseUsSection.scrollIntoView({ behavior: 'smooth' });
+                }}>
+                  Why Choose Us
+               </a>
               <a href="#">Careers</a>
               <a href="#">Clients</a>
             </div>

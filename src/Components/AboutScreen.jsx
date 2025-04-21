@@ -5,7 +5,7 @@ import img from "../assets/aboutscreen.png";
 
 const AboutSection = () => {
   return (
-    <div className="container py-5"  style={{maxWidth: "100%",}}>
+    <div id="about-us" className="container py-5" style={{ maxWidth: "100%" }}>
       <div className="row align-items-center about-row">
         {/* Left Image */}
         <div className="col-md-5 mb-4 mb-md-0 d-flex justify-content-center ">
