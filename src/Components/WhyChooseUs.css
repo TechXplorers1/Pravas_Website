@@ -1,0 +1,10 @@
+.black-box {
+    bottom: -40px; /* or adjust based on your layout */
+    left: 15px;
+  }
+
+  .custom-img-width {
+    width: 100%; /* Full width of the parent container */
+    max-width: 600px; /* Optional: Limit maximum width */
+    height: auto; /* Maintain aspect ratio */
+  }

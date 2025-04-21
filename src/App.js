@@ -5,6 +5,7 @@ import Header from './Components/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import AboutScreen from './Components/AboutScreen'; 
+import WhyChooseUs from "./Components/WhyChooseUs"
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Header/>
       <HeroSection />
       <AboutScreen/>
+      <WhyChooseUs/>
     </div>
   );
 }
